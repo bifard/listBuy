@@ -1,0 +1,126 @@
+.nav{
+    display: flex;
+    background-color: #219653;
+    height: 56px;
+    margin-bottom: 42px;
+}
+.nav_img {
+    padding:  8px 0 8px 8px;
+    width: 40px;
+    height: 40px;
+    
+}
+.nav_nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+
+    font-family: "RobotoBlack";
+    font-weight: 700;
+    font-size: 20px;
+}
+.reg {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+.form_form {
+    display: flex;
+    flex-direction: column;
+}
+.reg_h1 {
+    font-family: "RobotoBlack";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+
+    
+    background: linear-gradient(90deg, #219653 15%, #B5D43C 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.coneiner_input {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 56px;
+}
+.input_form {
+    width: 100%;
+    height: 30px;
+    
+    outline: none;
+    border: none;
+    border-bottom: solid 1px;
+    border-color: rgba($color: #000000, $alpha: 0.5);
+    
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+.input_form:focus{
+    
+    transition: all  600ms;
+    border-bottom: solid 2px;
+    border-image: linear-gradient(90deg, #219653 15%, #B5D43C 80%);
+    border-image-slice: 1;
+}
+.registr_name,
+.verification_name {
+    background-image: url(img/account.jpg);
+}
+.registr_pass {
+    background-image: url(img/lock.jpg);
+}
+.text_placeholder {
+    position: absolute;
+    padding-bottom: 8px;
+    color: rgba($color: #000000, $alpha: 0.6);
+    transition: all 600ms;
+}
+input:focus + .text_placeholder {
+    transform: translate(0,-20px);
+    transition: all 600ms;
+    font-size: 12px;
+}
+input:valid + .text_placeholder {
+    transform: translate(0,-20px);
+    transition: all 600ms;
+    font-size: 12px;
+}
+.form_submit { 
+    align-self: center;
+    width: 260px;
+    height: 50px;
+    margin-top: 40px;
+
+    border: none;
+    outline: none;
+
+    background: #219653;
+    border-radius: 50px;
+
+    font-family: "InterRegular";
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.hiden {
+    display: none;
+}
+.eye_pass {
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+   
+    width: 25px;
+    height: 25px;
+    background-image: url(img/eye.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.hiden:checked + label {
+    
+    background-image: url(img/eyeOpen.jpg);
+}

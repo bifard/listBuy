@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0;
+    min-width: 320px;
+}
+p,
+h1 {
+    padding: 0;
+    margin: 0;
+}
+.true {
+    color: green;
+    text-decoration: line-through;
+}
+.item_id,
+.checkbox {
+    display: none;
+}
+@import "todolist";
+@import "todoitem";
+@import "todoform";
+@import "mainWindow";
+@import "regAndVer";
+.nav_img,
+button:hover {
+    cursor: pointer;
+}
+
+
+@font-face {
+	font-family: 'RobotoRegular'; 
+	src: url(fonts/RobotoRegular.ttf); 
+}
+@font-face {
+	font-family: 'RobotoBlack'; 
+	src: url(fonts/RobotoBlack.ttf); 
+}
+@font-face {
+	font-family: 'RobotoBold'; 
+	src: url(fonts/RobotoBold.ttf); 
+}
+
+@font-face {
+	font-family: 'InterRegular'; 
+	src: url(fonts/InterRegular.ttf); 
+}

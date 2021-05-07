@@ -1,0 +1,38 @@
+.toDo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.item_text {
+    width: 100px;
+}
+.conteiner_price,
+.conteiner_lot {
+    display: flex;
+    input {
+        display: flex;
+        max-width: 50px;
+        border: none;
+        text-align: end;
+    }
+}
+.item_true {
+    .labelForCheckbox {
+        display: flex;
+        min-width: 18px;
+        min-height: 18px;
+        background-image: url(img/add-to-cart.svg);
+    }
+     input:checked + .labelForCheckbox  {
+         background-image: url(img/verification.svg);
+    }
+    
+}
+.item_delet {
+    width: 18px;
+    height: 18px;
+    background-image: url(img/basket.svg);
+    border: none;
+    background-color: rgba($color: #000000, $alpha: 0);
+}

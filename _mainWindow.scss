@@ -1,0 +1,46 @@
+
+.window_img {
+    width: 100%;
+    max-height: 350px;
+}
+.window_h1 {
+    font-family: "RobotoBold";
+    font-size: 40px;
+    font-weight: black;
+    
+}
+.window_conteiner, 
+.window_conteiner-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.window_p {
+    max-width: 260px;
+    text-align: center;
+    font-family: "InterRegular";
+    font-size: 20px;
+
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.button_main_window {
+    width: 260px;
+    height: 50px;
+
+    border-radius: 50px;
+
+    background-color: #060016;
+
+    font-family: "InterRegular";
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+    border: none;
+    outline: none;
+}
+.registr {
+    margin-top: 10px;
+}
+

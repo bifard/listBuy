@@ -1,0 +1,29 @@
+.conteiner_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5px;
+    .conteiner_input {
+        display: flex;
+        margin: 5px;
+        &:after {
+            content: "Руб.";
+        }
+        &:before {
+            content: "Сумма покупки :";
+        }
+        .summ {
+            padding-right: 5px;
+            max-width: 70px;
+            border: none;
+            text-align: end;
+        }
+    }
+    .form-toDo {
+        align-self: center;
+    }
+    
+}
+.send-new-item {
+    display: none;
+}

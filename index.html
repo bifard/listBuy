@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список покупок</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rend">
+
+    </div>
+    <template id="toDo-item_template">
+        <div class="toDo-item">
+            <div class="item_id"></div>
+            <div class="item_true">
+                <input class="checkbox" type="checkbox" name="" id="">
+                <label for="" class="labelForCheckbox"></label>
+            </div>
+            <div class="item_text"></div>
+            <div class="conteiner_price">
+                <div class="text_price"> </div>
+                <input type="number" id="input_price" class="input_price" >
+            </div>
+
+            <div class="conteiner_lot">
+                <div class="text_lot"></div>
+                <input type="number" class = "input_lot">
+            </div>
+
+            
+            <button class="item_delet"></button>
+        </div>
+    </template>
+    <script type="module" src="renderVerRegWindow.js"></script>
+    <script type="module" src="renderMainWindow.js"></script>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>
